@@ -3,6 +3,7 @@
    Distributed under the ISC license, see terms at the end of the file.
    cmdliner v1.0.2
   ---------------------------------------------------------------------------*)
+open Cmdliner_suggest_cap_tee
 
 let levenshtein_distance s t =
   (* As found here http://rosettacode.org/wiki/Levenshtein_distance#OCaml *)
