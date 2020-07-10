@@ -18,8 +18,8 @@ depends:[
 ]
 
 build: [
-  ["ocaml" "pkg/pkg.ml" "build" "--pinned" "%{pinned}%" "--toolchain" "riscv"]
   [make "add-cap-files"]
+  ["ocaml" "pkg/pkg.ml" "build" "--pinned" "%{pinned}%" "--toolchain" "riscv"]
 ]
 
 install: [["opam-installer" "--prefix=%{prefix}%/riscv-sysroot" "cmdliner.install"]]
