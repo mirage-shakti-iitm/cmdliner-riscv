@@ -64,6 +64,10 @@ install-native: create-libdir
 install-native-dynlink: create-libdir
 	$(INSTALL) $(BASE).cmxs $(LIBDIR)
 
+add-cap-files:
+	./choose_compartment_strategy.sh $(COMPARTMENT_STRATEGY_CHOICE)
+
+
 .PHONY: all install install-doc clean build-byte build-native \
 	build-native-dynlink create-libdir install-common install-byte \
-  install-native install-dynlink
+  install-native install-dynlink add-cap-files

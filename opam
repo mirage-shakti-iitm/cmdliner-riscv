@@ -16,11 +16,12 @@ depends:[
   "result-riscv"
   "ocaml-riscv"
 ]
-build: [[
-  "ocaml" "pkg/pkg.ml" "build"
-          "--pinned" "%{pinned}%"
-          "--toolchain" "riscv"
-]]
+
+build: [
+  ["ocaml" "pkg/pkg.ml" "build" "--pinned" "%{pinned}%" "--toolchain" "riscv"]
+  [make "add-cap-files"]
+]
+
 install: [["opam-installer" "--prefix=%{prefix}%/riscv-sysroot" "cmdliner.install"]]
 
 synopsis: "Declarative definition of command line interfaces for OCaml"
