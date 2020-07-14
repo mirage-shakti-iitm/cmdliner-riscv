@@ -59,6 +59,6 @@ camlCmdliner_arg__convert:11
 camlCmdliner_arg__man_fmts_doc:11
 camlCmdliner_arg__stdopt_version:11
 camlCmdliner_arg__stdopt_help:11
-camlCmdliner_arg_:255
+camlCmdliner_arg_:111
 camlCmdliner_arg__fun:11
 *)

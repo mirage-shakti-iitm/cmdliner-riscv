@@ -29,6 +29,6 @@ camlCmdliner__exit_status_of_result:11
 camlCmdliner__exit_status_of_status_result:11
 camlCmdliner__exit:11
 camlCmdliner__exit_status:11
-camlCmdliner_:255
+camlCmdliner_:111
 camlCmdliner__fun:11
 *)
