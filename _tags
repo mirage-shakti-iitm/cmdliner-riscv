@@ -1,4 +1,4 @@
-true : asm, bin_annot, safe_string, package(bytes), package(result), function-sections
+true : asm, bin_annot, safe_string, package(bytes), package(result), function_sections
 <src> : include
 <test> : include
 
