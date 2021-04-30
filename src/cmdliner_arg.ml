@@ -3,7 +3,6 @@
    Distributed under the ISC license, see terms at the end of the file.
    cmdliner v1.0.2
   ---------------------------------------------------------------------------*)
-open Cmdliner_arg_cap_tee
 
 open Result
 
