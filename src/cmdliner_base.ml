@@ -3,7 +3,7 @@
    Distributed under the ISC license, see terms at the end of the file.
    cmdliner v1.0.2
   ---------------------------------------------------------------------------*)
-open Cmdliner_base_cap_tee
+(* open Cmdliner_base_cap_tee *)
 
 (* Invalid argument strings *)
 
