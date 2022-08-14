@@ -1,4 +1,4 @@
-true : asm, bin_annot, safe_string, package(bytes), package(result), default_compartment_id(6), function_sections
+true : asm, bin_annot, safe_string, package(bytes), package(result), default_compartment_id(6), setu_cap_path(/home/sai/Shakti-TEE-Practical/mirage-shakti/setu-cap-files/cmdliner), function_sections
 <src> : include
 <test> : include
 
