@@ -1,4 +1,4 @@
-true : asm, bin_annot, safe_string, package(bytes), package(result), default_compartment_id(50), function_sections
+true : asm, bin_annot, safe_string, package(bytes), package(result), default_compartment_id(255), function_sections
 <src> : include
 <test> : include
 
