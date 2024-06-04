@@ -1,4 +1,4 @@
-true : asm, bin_annot, safe_string, package(bytes), package(result), default_compartment_id(251), fides_cap_path(/home/sai/Shakti-TEE-Practical/mirage-shakti/fides-cap-files/fides-voting-system-3/cmdliner-riscv), function_sections
+true : asm, bin_annot, safe_string, package(bytes), package(result), default_compartment_id(15), function_sections
 <src> : include
 <test> : include
 
